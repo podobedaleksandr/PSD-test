@@ -1,15 +1,51 @@
 #page{
-    padding: 0;
+    background: #33ccff;
+}
+#wrapper:after{
+    display: block;
+    content: "";
+    clear: both;
 }
 #wrapper{
-    padding: 0;
+    width: 950px;
+    margin: 0 auto;
 }
 #header {
-    padding: 0;
+    height: 77px;
+    background: #fff;
+}
+#sidebar{
+    width: 225px;
 }
 #main{
-    padding: 0;
+    width: 713px;
 }
 #footer{
-    padding: 0;
+}
+.header{
+
+}
+.sidebar:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.sidebar{
+    float: left;
+}
+.shop-by{
+    height: 44px;
+    color: #ed2991;
+    border: solid #16c1f3 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: #fff;
+}
+.main:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.main{
+    float: right;
 }
