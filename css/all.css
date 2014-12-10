@@ -23,6 +23,7 @@
 #footer{
 }
 .header{
+    margin-bottom: 11px;
 
 }
 .sidebar:after{
@@ -33,14 +34,37 @@
 .sidebar{
     float: left;
 }
-.shop-by{
+.arrow_box {
+    border-radius: 5px;
     height: 44px;
     color: #ed2991;
-    border: solid #16c1f3 5px;
-    border-radius: 5px;
-    box-sizing: border-box;
-    background: #fff;
-}
+    position: relative;
+    background: #ffffff;
+    border: 5px solid #16c1f3;
+    margin-bottom: 20px;
+    }
+    .arrow_box:after, .arrow_box:before {
+        top: 100%;
+        left: 35px;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+
+    }
+    .arrow_box:after {
+        border-color: rgba(255, 255, 255, 0);
+        border-top-color: #ffffff;
+        border-width: 10px;
+        margin-left: -10px;
+    }
+    .arrow_box:before {
+        border-color: rgba(22, 193, 243, 0);
+        border-top-color: #16c1f3;
+        border-width: 17px;
+        margin-left: -17px;
+    }
 .main:after{
     display: block;
     content: "";
@@ -49,3 +73,41 @@
 .main{
     float: right;
 }
+.ribbon-text{
+    float: right;
+    width: 618px;
+    height: 36px;
+    padding-left: 25px;
+    border: solid #fff 5px;
+    box-sizing: border-box;
+}
+.ribbon-btn {
+    box-sizing: border-box;
+    height: 36px;
+    width: 100px;
+    float: left;
+    position: absolute;
+    background: #ed2991;
+    border: 5px solid #ffffff;
+}
+    .ribbon-btn:after,.ribbon-btn:before {
+        left: 100%;
+        top: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+    }
+    .ribbon-btn:after {
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #fff;
+        border-width: 18px;
+        margin-top: -18px;
+    }
+    .a:before {
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #ffffff;
+        border-width: 18px;
+        margin-top: -18px;
+    }
