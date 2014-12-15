@@ -2,8 +2,8 @@
     background: #33ccff;
 }
 #wrapper:after{
-    display: block;
     content: "";
+    display: block;
     clear: both;
 }
 #wrapper{
@@ -12,7 +12,6 @@
 }
 #header {
     height: 77px;
-    background: #fff;
 }
 #sidebar{
     width: 225px;
@@ -22,9 +21,58 @@
 }
 #footer{
 }
-.header{
-    margin-bottom: 11px;
+.visual{
 
+}
+.account{
+    float: right;
+    width: 455px;
+    height: 23px;
+    background: #30333d;
+    color: #fff;
+}
+.account li{
+    float: left;
+    padding: 0 5px;
+}
+.header{
+    background: #fff;
+    margin-bottom: 11px;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+.header .visual{
+    float: left;
+}
+.navigate{
+    float: left;
+    height: 100%;
+}
+.navigate li{
+    float: left;
+    padding: 0 9px;
+    vertical-align: middle;
+}
+.home-btn{
+    color: #33ccff;
+}
+.artshop-btn{
+    color: #ed1b24;
+}
+.create-btn{
+    color: #ffcc33;
+}
+.meet--btn{
+    color: #ed2991;
+}
+.why-btn{
+    color: #99cc33;
+}
+.pricing-btn{
+    color: #f36d21;
+}
+.faq-btn{
+    color: #00ccff;
 }
 .sidebar:after{
     display: block;
@@ -70,6 +118,38 @@
     content: "";
     clear: both;
 }
+.menu{
+    border-radius: 5px;
+    border: 5px solid #16c1f3;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.menu-list{
+    color: #fff;
+}
+    .menu-list li {
+        position: relative;
+        background: #0076bc;
+        height: 28px;
+        border: solid #0076bc 1px;
+        border-radius: 5px;
+    }
+    .menu-list ul {
+        display: none;
+        min-width: 1px;
+    }
+    .menu-list li:hover > ul {
+        display: block;
+    }
+    .menu-list ul {
+        left: 0;
+        top: 100%;
+    }
+    .menu-list li ul li ul{
+        left: 100%;
+        top: 0%;
+    }
 .main{
     float: right;
 }
