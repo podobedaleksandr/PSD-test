@@ -8,10 +8,6 @@
     <link rel="stylesheet" type="text/css" href="css/all.css" media="all" />
     <link href="css/mediaqueries.css" rel="stylesheet" />
     <style>
-        @font-face {
-            font-family: Helvetica;
-            src: url(fonts/Helvetica.ttf);
-        }
     </style>
     <link rel="stylesheet" href="flexslider.css" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
@@ -47,16 +43,16 @@
     <div id="header" class="header">
         <div class="header-content">
             <div class="visual">
-                <img src="images/logo.png">
+                <img src="images/logo.png"/>
             </div>
             <div class="navigate">
                 <ul>
-                    <li><a class="home-btn" href="index.html">Home</a></li>
-                    <li><a class="artshop-btn" href="index.html">Art Shop</a></li>
-                    <li><a class="create-btn" href="index.html">Create An Eazl</a></li>
-                    <li><a class="meet--btn" href="index.html">Meet Eazl</a></li>
-                    <li><a class="why-btn" href="index.html">Why Eazl</a></li>
-                    <li><a class="pricing-btn" href="index.html">Pricing</a></li>
+                    <li><a class="home-btn" href="index.html">HOME</a></li>
+                    <li><a class="artshop-btn" href="index.html">ART SHOP</a></li>
+                    <li><a class="create-btn" href="index.html">CREATE AN EAZL</a></li>
+                    <li><a class="meet--btn" href="index.html">MEET EAZL</a></li>
+                    <li><a class="why-btn" href="index.html">WHY EAZL</a></li>
+                    <li><a class="pricing-btn" href="index.html">PRICING</a></li>
                     <li><a class="faq-btn" href="index.html">FAQ</a></li>
                 </ul>
             </div>
@@ -70,8 +66,14 @@
             <div id="menu_body">
                 <div class="menu">
                     <div>
-                        <a onclick="hidetxt('div1')" href="#" rel="nofollow" class="section"><span>Categories</span></a>
-                        <div style="display: none" id="div1" class="subsection">
+                        <form action="" method="post" class="search-menu">
+                            <input type="search" name="" placeholder="" class="input-menu"/>
+                            <input type="submit" name="" value="" class="submit-menu"/>
+                        </form>
+                    </div>
+                    <div>
+                        <a onclick="hidetxt('div1')" href="#" rel="nofollow" class="section">Categories</a>
+                        <div style="" id="div1" class="subsection">
                             <ul>
                                 <li><a href="index.html">Abstract</a></li>
                                 <li><a href="index.html">Animals</a></li>
@@ -107,7 +109,7 @@
                 </div>
             </div>
         </div>
-        <div id="main" class="main">
+        <div id="content" class="content">
             <div class="ribbon">
                 <div class="ribbon-btn">
                     <p>15% OFF</p>
@@ -124,249 +126,321 @@
                     <li>
                         <img src="images/slide2.jpg" />
                     </li>
-                    <li>
-                        <img src="images/slide3.jpg" />
-                    </li>
                 </ul>
             </div>
             <div class="sales">
                 <ul>
                     <li>
-                        <div>
-                            <img src="images/Box-promo.png">
-                            <h1>Free Shipping</h1>
+                        <a href="index.html">
+                            <div class="visual">
+                                <img src="images/Box-promo.png"/>
+                            </div>
+                            <h1 style="font-family: Eurostyle; color: #ffcc00; font-size: 20pt">Free Shipping</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
+                        </a>
                     </li>
                     <li>
-                        <div>
-                            <img src="images/Procent-promo.png">
-                            <h1>Get 15% OFF</h1>
+                        <a href="index.html">
+                            <div class="visual">
+                                <img src="images/Procent-promo.png">
+                            </div>
+                            <h1 style="font-family: Eurostyle; color: #f36d21; font-size: 20pt">Get 15% OFF</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
+                        </a>
                     </li>
                     <li>
-                        <div>
-                            <img src="images/e-mail-promo.png">
-                            <h1>Email Offers</h1>
+                        <a href="index.html">
+                            <div class="visual">
+                                <img src="images/e-mail-promo.png">
+                            </div>
+                            <h1 style="font-family: Eurostyle; color: #99cc33; font-size: 20pt">Email Offers</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>                        
+                        </a>
                     </li>
                 </ul>
             </div>
             <div class="featured-art">
-                <div>
-                    <h1>Featured Art</h1>
-                    <div class="descriptions">
-                        <ul>
-                            <li>
+                <h1 style="font-family: Koz; color: #ff3399; font-size: 17pt; margin-bottom: 8px">Featured Art</h1>
+                <div class="descriptions">
+                    <ul>
+                        <li>
+                            <a href="index.html">
                                 <div class="descript-block">
                                     <div class="visual">
                                         <img src="images/Featured1.png">
                                     </div>
                                 </div>
-                            </li>
-                            <li>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html">
                                 <div class="descript-block">
                                     <div class="visual">
                                         <img src="images/Featured2.png">
                                     </div>
                                 </div>
-                            </li>
-                            <li>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html">
                                 <div class="descript-block">
                                     <div class="visual">
                                         <img src="images/Featured3.png">
                                     </div>
                                 </div>
-                            </li>
-                            <li>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html">
                                 <div class="descript-block">
                                     <div class="visual">
                                         <img src="images/Featured4.png">
                                     </div>
                                 </div>
-                            </li>
-                            <li>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html">
                                 <div class="descript-block">
                                     <div class="visual">
                                         <img src="images/Featured5.png">
                                     </div>
                                 </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="descriptions2">
-                        <ul>
-                            <li>
-                                <div class="descript-text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    <form action="index.html">
-                                        <input type="submit" value="add to cart" class="add-btn-green">
-                                    </form>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="descript-text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    <form action="index.html">
-                                        <input type="submit" value="add to cart" class="add-btn-green">
-                                    </form>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="descript-text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    <form action="index.html">
-                                        <input type="submit" value="add to cart" class="add-btn-green">
-                                    </form>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="descript-text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    <form action="index.html">
-                                        <input type="submit" value="add to cart" class="add-btn-green">
-                                    </form>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="descript-text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    <form action="index.html">
-                                        <input type="submit" value="add to cart" class="add-btn-green">
-                                    </form>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="descriptions2">
+                    <ul>
+                        <li>
+                            <div class="descript-text">
+                                <h1>Lorem ipsum dolor sit amet ssdsdds</h1>
+                                <p>by Lorem impus</p>
+                                <h2>$79.00</h2>
+                                <form action="index.html">
+                                    <input type="submit" value="add to cart" class="add-btn-green">
+                                </form>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="descript-text">
+                                <form action="index.html">
+                                    <h1>Lorem ipsum dolor sit amet ssdsdds</h1>
+                                    <p>by Lorem impus</p>
+                                    <h2>$79.00</h2>
+                                    <input type="submit" value="add to cart" class="add-btn-green">
+                                </form>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="descript-text">
+                                <form action="index.html">
+                                    <h1>Lorem ipsum dolor sit amet ssdsdds</h1>
+                                    <p>by Lorem impus</p>
+                                    <h2>$79.00</h2>
+                                    <input type="submit" value="add to cart" class="add-btn-green">
+                                </form>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="descript-text">
+                                <form action="index.html">
+                                    <h1>Lorem ipsum dolor sit amet ssdsdds</h1>
+                                    <p>by Lorem impus</p>
+                                    <h2>$79.00</h2>
+                                    <input type="submit" value="add to cart" class="add-btn-green">
+                                </form>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="descript-text">
+                                <form action="index.html">
+                                    <h1>Lorem ipsum dolor sit amet ssdsdds</h1>
+                                    <p>by Lorem impus</p>
+                                    <h2>$79.00</h2>
+                                    <input type="submit" value="add to cart" class="add-btn-green">
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="best-sellers">
-                <div>
-                    <h1>Best Sellers</h1>
-                    <div class="descriptions">
-                        <ul>
-                            <li>
-                                <a href="index.html">
-                                    <div class="descript-block">
-                                        <div class="visual">
-                                            <img src="images/best1.png">
-                                        </div>
+                <h1 style="font-family: Koz; color: #ff3399; font-size: 17pt; margin-bottom: 8px;">Best Sellers</h1>
+                <div class="descriptions">
+                    <ul>
+                        <li>
+                            <a href="index.html">
+                                <div class="descript-block">
+                                    <div class="visual">
+                                        <img src="images/best1.png">
                                     </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="index.html">
-                                    <div class="descript-block">
-                                        <div class="visual">
-                                            <img src="images/best2.png">
-                                        </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html">
+                                <div class="descript-block">
+                                    <div class="visual">
+                                        <img src="images/best2.png">
                                     </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="index.html">
-                                    <div class="descript-block">
-                                        <div class="visual">
-                                            <img src="images/best3.png">
-                                        </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html">
+                                <div class="descript-block">
+                                    <div class="visual">
+                                        <img src="images/best3.png">
                                     </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="index.html">
-                                    <div class="descript-block">
-                                        <div class="visual">
-                                            <img src="images/best4.png">
-                                        </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html">
+                                <div class="descript-block">
+                                    <div class="visual">
+                                        <img src="images/best4.png">
                                     </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="index.html">
-                                    <div class="descript-block">
-                                        <div class="visual">
-                                            <img src="images/best5.png">
-                                        </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html">
+                                <div class="descript-block">
+                                    <div class="visual">
+                                        <img src="images/best5.png">
                                     </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="descriptions2">
-                        <ul>
-                            <li>
-                                <div class="descript-text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    <form action="index.html">
-                                        <input type="submit" value="add to cart" class="add-btn-blue">
-                                    </form>
                                 </div>
-                            </li>
-                            <li>
-                                <div class="descript-text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    <form action="index.html">
-                                        <input type="submit" value="add to cart" class="add-btn-blue">
-                                    </form>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="descript-text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    <form action="index.html">
-                                        <input type="submit" value="add to cart" class="add-btn-blue">
-                                    </form>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="descript-text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    <form action="index.html">
-                                        <input type="submit" value="add to cart" class="add-btn-blue">
-                                    </form>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="descript-text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    <form action="index.html">
-                                        <input type="submit" value="add to cart" class="add-btn-blue">
-                                    </form>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="descriptions2">
+                    <ul>
+                        <li>
+                            <div class="descript-text">
+                                <form action="index.html">
+                                    <h1>Lorem ipsum dolor sit amet ssdsdds</h1>
+                                    <p>by Lorem impus</p>
+                                    <h2>$79.00</h2>
+                                    <input type="submit" value="add to cart" class="add-btn-blue">
+                                </form>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="descript-text">
+                                <form action="index.html">
+                                    <h1>Lorem ipsum dolor sit amet ssdsdds</h1>
+                                    <p>by Lorem impus</p>
+                                    <h2>$79.00</h2>
+                                    <input type="submit" value="add to cart" class="add-btn-blue">
+                                </form>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="descript-text">
+                                <form action="index.html">
+                                    <h1>Lorem ipsum dolor sit amet ssdsdds</h1>
+                                    <p>by Lorem impus</p>
+                                    <h2>$79.00</h2>
+                                    <input type="submit" value="add to cart" class="add-btn-blue">
+                                </form>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="descript-text">
+                                <form action="index.html">
+                                    <h1>Lorem ipsum dolor sit amet ssdsdds</h1>
+                                    <p>by Lorem impus</p>
+                                    <h2>$79.00</h2>
+                                    <input type="submit" value="add to cart" class="add-btn-blue">
+                                </form>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="descript-text">
+                                <form action="index.html">
+                                    <h1>Lorem ipsum dolor sit amet ssdsdds</h1>
+                                    <p>by Lorem impus</p>
+                                    <h2>$79.00</h2>
+                                    <input type="submit" value="add to cart" class="add-btn-blue">
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
     <div id="footer" class="footer">
         <div class="footer-content">
-            <div class="footer-ico">
-            </div>
             <div class="footer-links">
-                <ul class="about-us">
-                    <li><a href="index.html">Customer Service</a></li>
-                    <li><a href="index.html">About Us</a></li>
-                    <li><a href="index.html">Search Terms</a></li>
-                    <li><a href="index.html">Site Map</a></li>
-                    <li><a href="index.html">Contact Us</a></li>
-                </ul>
-                <ul class="why-buy">
-                    <li><a href="index.html">Shipping & Returns</a></li>
-                    <li><a href="index.html">Secure Shopping</a></li>
-                    <li><a href="index.html">International Shipping</a></li>
-                    <li><a href="index.html">Affiliates</a></li>
-                    <li><a href="index.html">Group sales</a></li>
-                </ul>
-                <ul class="contact-us">
-                    <li><a href="index.html">Sing In</a></li>
-                    <li><a href="index.html">View Cart</a></li>
-                    <li><a href="index.html">My Whishlist</a></li>
-                    <li><a href="index.html">Advanced Search</a></li>
-                    <li><a href="index.html">Help</a></li>
+                <div class="visual footer-ico">
+                    <img src="images/ico-about.png"/>
+                </div>
+                <div class="about-us">
+                    <ul>
+                        <li><h1>About Us</h1></li>
+                        <li><a href="index.html">Customer Service</a></li>
+                        <li><a href="index.html">About Us</a></li>
+                        <li><a href="index.html">Search Terms</a></li>
+                        <li><a href="index.html">Site Map</a></li>
+                        <li><a href="index.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="visual footer-ico">
+                    <img src="images/ico-why-buy.png"/>
+                </div>
+                <div  class="why-buy">
+                    <ul>
+                        <li><h1>Why buy from us</h1></li>
+                        <li><a href="index.html">Shipping & Returns</a></li>
+                        <li><a href="index.html">Secure Shopping</a></li>
+                        <li><a href="index.html">International Shipping</a></li>
+                        <li><a href="index.html">Affiliates</a></li>
+                        <li><a href="index.html">Group sales</a></li>
+                    </ul>
+                </div>
+                <div class="visual footer-ico">
+                    <img src="images/ico-my-contact.png"/>
+                </div>
+                <div class="contact-us">
+                    <ul>
+                        <li><h1>My account</h1></li>
+                        <li><a href="index.html">Sing In</a></li>
+                        <li><a href="index.html">View Cart</a></li>
+                        <li><a href="index.html">My Whishlist</a></li>
+                        <li><a href="index.html">Advanced Search</a></li>
+                        <li><a href="index.html">Help</a></li>
+                    </ul>
+                </div>
+                <div class="email-sing">
+                    <ul>
+                        <li><h1>Email Sing Up</h1></li>
+                        <li>
+                            <form action="" method="post" class="email-sing-form">
+                                <input type="text" name="" placeholder="" class="input-footer"/>
+                                <input type="submit" name="" value="SUBMIT" class="submit-footer"/>
+                            </form>
+                        </li>
+                        <li>
+                            <p>
+                               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                               Integer et finibus nisl. Pellentesque gravida lorem at tempor condimentum.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2012 Circle Graphics, inc. All Right Reserved.</p>
+            <div class="social">
+                <ul>
+                    <li><a class="facebook" href="index.html"><span>Facebook</span></a></li>
+                    <li><a class="twitter" href="index.html"><span>Twitter</span></a></li>
+                    <li><a class="pinterest" href="index.html"><span>Pin</span></a></li>
                 </ul>
             </div>
         </div>
