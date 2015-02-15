@@ -13,14 +13,14 @@ body, code, dl, dd, form, pre {
     margin: 0;
 }
 a:link {
-    color: #000000;
+
 
 }
 a:link, a:visited, ins {
     text-decoration: none;
 }
 a:visited {
-    color: #4e4e4e;
+
 }
 a:hover {
     text-decoration: none;

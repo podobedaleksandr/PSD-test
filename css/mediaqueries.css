@@ -1,0 +1,30 @@
+
+@media screen and (max-width: 860px) {
+    #wrapper{
+	width: 100%;
+        box-sizing: border-box;
+        padding: 0 10px;
+        min-width: 320px;
+    }
+}
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/Helvetica.eot');
+    src: url('../fonts/Helvetica.eot') format('embedded-opentype'),
+    url('../fonts/Helvetica.woff2') format('woff2'),
+    url('../fonts/Helvetica.woff') format('woff'),
+    url('../fonts/Helvetica.ttf') format('truetype'),
+    url('../fonts/Helvetica.svg#Helvetica') format('svg');
+}
+
+@font-face {
+    font-family: 'Eurostyle';
+    src: url('../fonts/BirchStd.eot');
+    src: url('../fonts/BirchStd.eot') format('embedded-opentype'),
+    url('../fonts/BirchStd.woff2') format('woff2'),
+    url('../fonts/BirchStd.woff') format('woff'),
+    url('../fonts/BirchStd.ttf') format('truetype'),
+    url('../fonts/BirchStd.svg#BirchStd') format('svg');
+}
+
+
