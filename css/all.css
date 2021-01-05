@@ -1,0 +1,134 @@
+#header{
+    height: 90px;
+}
+
+.logo{
+    padding: 27px 0 27px 228px;
+    float: left;
+}
+
+.menu{
+    font-family: 'Lato', sans-serif;
+    padding: 38px 100px 0 0;
+    float: right;
+}
+
+.menu li{
+    padding: 0 10px;
+    display: inline;
+}
+
+#slider{
+    height: 200px;
+    background-color: rgb(199, 176, 176);
+    margin-bottom: 33px;
+}
+
+#content{
+    background-color: #fafafa;
+
+}
+
+.tab-navigation{
+    margin: 0 auto;
+    height: 62px;
+    line-height: 62px;
+    width: 900px;
+    text-align: center;    
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    border-top:1px solid #e1e1e1;
+    border-bottom:1px solid #e1e1e1;
+}
+
+.tab-navigation li{
+    
+    padding: 0 22px;
+    display: inline;
+}
+
+.pads{
+    width: 900px;
+    margin: 0 auto;
+    column-count: 3;
+    column-gap: 0;
+}
+
+.pads img {
+    margin: 10px;
+    width: 270px;
+}
+
+#footer{
+    margin: 0 auto;
+    width: 900px;
+}
+
+.footer-logo a{
+    justify-content: center;
+    display: flex;
+    padding: 65px;
+}
+
+.social ul{
+    justify-content: center;
+    display: flex;
+    padding: 25px;
+}
+
+.social li{
+    margin-right: 45px;
+    display: inline;
+} 
+
+.social a{
+    background-image: url(/image/sprites-social.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+}
+
+.social a:hover{
+    background-position-y: bottom;
+    transition: all 0.4 s ease-out;
+}
+
+.facebook{
+    background-position: -77px -20px;
+}
+
+.google{
+    background-position: -19px -20px;
+}
+
+.twitter{
+    background-position: -57px -20px;
+}
+
+.huynya{
+    background-position: -96px -20px;
+}
+
+.in{
+    background-position: -174px -20px;
+}
+
+.youtube{
+    background-position: -271px -20px;
+}
+
+.instagram{
+    background-position: -426px -20px;
+}
+
+.bottom{
+    padding: 47px;
+    text-align: center;
+}
+
+.bottom span{
+    color:#9C9C9C;
+    font-family: Roboto-Regular,AdobeInvisFont,MyriadPro-Regular;
+    font-size: 13px;
+}
